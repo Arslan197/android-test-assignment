@@ -191,11 +191,3 @@ fun PropertyItem(
         }
     }
 }
-
-//@Preview(showBackground = true)
-//@Composable
-//fun showResultScreen(){
-//    ShackleHotelBuddyTheme {
-//        SearchResultScreen(navController = rememberNavController(), )
-//    }
-//}

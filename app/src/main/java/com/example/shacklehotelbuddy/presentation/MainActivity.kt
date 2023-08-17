@@ -35,7 +35,6 @@ class MainActivity : ComponentActivity() {
                                 emptyList()
                             ).value
                         SearchScreen(
-                            navController = navController,
                             searchHistoryList = searchHistoryList
                         ) {
                             propertyViewModel.insertSearchHistory(it)

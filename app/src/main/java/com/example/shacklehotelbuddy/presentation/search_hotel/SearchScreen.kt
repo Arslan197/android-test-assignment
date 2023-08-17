@@ -69,7 +69,6 @@ import java.util.Calendar
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
 fun SearchScreen(
-    navController: NavController,
     searchHistoryList: List<SearchHistory>,
     onSearchClickListener: (SearchHistory) -> Unit
 ) {
@@ -561,7 +560,7 @@ private fun SearchHistoryItem(
 @Composable
 fun showSearchScreen() {
     ShackleHotelBuddyTheme {
-        SearchScreen(navController = rememberNavController(), emptyList()) {
+        SearchScreen(emptyList()) {
 
         }
     }
