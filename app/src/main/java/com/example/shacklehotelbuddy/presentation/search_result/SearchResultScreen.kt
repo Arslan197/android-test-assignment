@@ -53,7 +53,6 @@ fun SearchResultScreen(
     propertiesList: State<List<Property>>,
     isLoading: State<Boolean>
 ) {
-
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
